@@ -1,0 +1,124 @@
+.comp_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    width: 90%;
+    max-width: 1450px;
+    margin: 8rem 0 1rem 0;
+}
+
+.noBookings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 1.1rem;
+    background: #f5f5f5;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.image_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    width: 100%;
+    max-width: 600px;;
+    border-radius: 3rem;
+    padding: 6px 0;
+    margin: 1rem auto 3rem auto;
+}
+
+.Y2 {
+    width: 100%;
+}
+
+.yatchBox {
+    margin: 2rem 0 1rem 0;
+    width: 100%;
+}
+
+.section_head {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.section_head2 {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46.29px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #2B6BE7;
+    margin-bottom: 1.5rem;
+}
+
+.yatch_slider {
+    width: 100%;
+    max-width: 1450px;
+    /* overflow: hidden; */
+    padding: 0px 0;
+    margin: 1rem 0 3rem 0;
+}
+
+.swiper_slide {
+    width: 300px !important;
+    min-width: 300px !important;
+}
+
+
+.filterContainer {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0 4rem 0;
+}
+
+.filterDropdown {
+    padding: 0.6rem 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    min-width: 150px;
+    background-color: white;
+    cursor: pointer;
+}
+.filterContainer option{
+    font-size: 1rem;
+}
+
+.filterDropdown:hover {
+    border-color: #2B6BE7;
+}
+
+.filterDropdown:focus {
+    outline: none;
+    border-color: #2B6BE7;
+    box-shadow: 0 0 0 2px rgba(43, 107, 231, 0.1);
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 500px){
+    .filterContainer{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .filterContainer option{
+        width: 100px;
+        padding: 10px;
+    }
+
+}
